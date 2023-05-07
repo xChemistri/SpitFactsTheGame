@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c1a746fdaa07f154aa36fd2016e956e7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rig: {instanceID: 0}
+  - oof: {fileID: 8300000, guid: 7c4ad753d38b2ac4cabf0fdd8ee67359, type: 3}
+  - bong: {fileID: 8300000, guid: 5ca11f0d1e8e1404ba1de25a99f7e2a8, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
