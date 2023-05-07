@@ -42,9 +42,9 @@ GameObject:
   - component: {fileID: 8778008661114734668}
   - component: {fileID: 8778008661114734659}
   - component: {fileID: 8778008661114734658}
-  - component: {fileID: 8778008661114734657}
   - component: {fileID: 8778008661114734669}
   - component: {fileID: -6790631430783094488}
+  - component: {fileID: 496175556126465959}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -66,7 +66,7 @@ Transform:
   m_Children:
   - {fileID: 554286882}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &8778008661114734659
 BoxCollider2D:
@@ -165,25 +165,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8778008661114734657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8778008661114734656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bddd2b1428614734c8ac9667e14e7120, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movement: 0
-  rigid: {fileID: 8778008661114734669}
-  JUMP_FORCE: 350
-  SPEED: 7
-  mouth: {fileID: 554286882}
-  facts: {fileID: 3713373233578785176, guid: 628b6275076a750448c8a9f028a542f9, type: 3}
-  animator: {fileID: -6790631430783094488}
 --- !u!50 &8778008661114734669
 Rigidbody2D:
   serializedVersion: 4
@@ -231,3 +212,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &496175556126465959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8778008661114734656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddd2b1428614734c8ac9667e14e7120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movement: 0
+  rigid: {fileID: 0}
+  JUMP_FORCE: 350
+  SPEED: 7
+  mouth: {fileID: 554286882}
+  facts: {fileID: 3713373233578785176, guid: 628b6275076a750448c8a9f028a542f9, type: 3}
+  animator: {fileID: -6790631430783094488}

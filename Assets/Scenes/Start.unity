@@ -752,7 +752,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scorekeeper
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1989666915797703373, guid: 6fa463ad46105b44e96565e681e8b155, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

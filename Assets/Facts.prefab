@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3713373233578785178}
   - component: {fileID: 3713373233578785177}
   - component: {fileID: 1534035786404086319}
-  - component: {fileID: 5735118629688198989}
+  - component: {fileID: -6152628593956574478}
   m_Layer: 0
   m_Name: Facts
   m_TagString: Laser
@@ -159,7 +159,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.54, y: 1.44}
   m_EdgeRadius: 0
---- !u!114 &5735118629688198989
+--- !u!114 &-6152628593956574478
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

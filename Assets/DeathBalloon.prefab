@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5981131287620348330}
   - component: {fileID: 5981131287620348331}
   - component: {fileID: 5981131287620348332}
-  - component: {fileID: 849099688099117375}
+  - component: {fileID: -6650811068426410152}
   m_Layer: 0
   m_Name: DeathBalloon
   m_TagString: Balloon
@@ -149,7 +149,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.17666817, y: 4.59539}
   m_Size: {x: 17.710514, y: 21.173283}
   m_Direction: 0
---- !u!114 &849099688099117375
+--- !u!114 &-6650811068426410152
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,6 +161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1a746fdaa07f154aa36fd2016e956e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 0.5
   oof: {fileID: 8300000, guid: fe952d6d2535bd74ea9e520d01ffc936, type: 3}
   bong: {fileID: 8300000, guid: 5ca11f0d1e8e1404ba1de25a99f7e2a8, type: 3}

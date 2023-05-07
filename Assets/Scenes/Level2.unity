@@ -647,6 +647,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6650811068426410152, guid: 517a69f88aa0d634fa52807c0d3f8d9f, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 849099688099117375, guid: 517a69f88aa0d634fa52807c0d3f8d9f, type: 3}
       propertyPath: speed
       value: 3
@@ -1438,6 +1442,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6650811068426410152, guid: 517a69f88aa0d634fa52807c0d3f8d9f, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 849099688099117375, guid: 517a69f88aa0d634fa52807c0d3f8d9f, type: 3}
       propertyPath: speed
       value: 3
@@ -1655,6 +1663,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1372803679363036630, guid: 9797b0b90e4e29949ab80e1c0a85c6ab, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5981131287620348328, guid: 9797b0b90e4e29949ab80e1c0a85c6ab, type: 3}
       propertyPath: clip
       value: 
